@@ -1738,6 +1738,8 @@ let result = let callPackage = x : y : modifyPrio (newScope result.finalReturn x
 
   MaybeT = callPackage ../development/libraries/haskell/MaybeT {};
 
+  memoize = callPackage ../development/libraries/haskell/memoize {};
+
   MemoTrie = callPackage ../development/libraries/haskell/MemoTrie {};
 
   mersenneRandomPure64 = callPackage ../development/libraries/haskell/mersenne-random-pure64 {};
